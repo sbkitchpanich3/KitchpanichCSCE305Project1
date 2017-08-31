@@ -3,4 +3,5 @@
     <string name="rest_text_view">Rest</string>
     <string name="next_button">next</string>
     <string name="prev_button">prev</string>
+    <string name="love_text_view">love</string>
 </resources>

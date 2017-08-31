@@ -23,18 +23,18 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:paddingTop="10dp">
-
+<!--
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/prev_button"
             android:onClick="onPrevPage"/>
-
+-->
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/next_button"
-            android:onClick="onNextPage"/>
+            android:onClick="onToPageThree"/>
 
 
     </LinearLayout>
