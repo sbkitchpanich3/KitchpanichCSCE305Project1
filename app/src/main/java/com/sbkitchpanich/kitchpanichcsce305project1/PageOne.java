@@ -20,4 +20,5 @@ public class PageOne extends AppCompatActivity {
 
         startActivity(getPageTwoIntent);
     }
+
 }
