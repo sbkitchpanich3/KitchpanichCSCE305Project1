@@ -2,6 +2,8 @@ package com.sbkitchpanich.kitchpanichcsce305project1;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.media.AudioManager;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
@@ -14,6 +16,11 @@ public class PageFour extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.pagefour);
+        MediaPlayer mp = new MediaPlayer();
+        mp = MediaPlayer.create(this, R.raw.love);
+        mp.setAudioStreamType(AudioManager.STREAM_MUSIC);
+        mp.setLooping(false);
+        mp.start();
     }
 
 
@@ -23,5 +30,13 @@ public class PageFour extends AppCompatActivity {
         //final int result = 1;
 
         startActivity(getPageFiveIntent);
+    }
+
+    public void onToPageThree(View view) {
+        Intent getPageThreeIntent = new Intent(this, PageThree.class);
+
+        //final int result = 1;
+
+        startActivity(getPageThreeIntent);
     }
 }

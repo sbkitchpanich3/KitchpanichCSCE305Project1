@@ -18,39 +18,30 @@
         </activity>
 
         <activity android:name=".PageTwo"
-            android:label="pagetwo"
             android:theme="@style/AppTheme" />
 
         <activity android:name=".PageThree"
-            android:label="pagethree"
             android:theme="@style/AppTheme" />
 
         <activity android:name=".PageFour"
-            android:label="pagefour"
             android:theme="@style/AppTheme" />
 
         <activity android:name=".PageFive"
-            android:label="pagefive"
             android:theme="@style/AppTheme" />
 
         <activity android:name=".PageSix"
-            android:label="pagesix"
             android:theme="@style/AppTheme" />
 
         <activity android:name=".PageSeven"
-            android:label="pageseven"
             android:theme="@style/AppTheme" />
 
         <activity android:name=".PageEight"
-            android:label="pageeight"
             android:theme="@style/AppTheme" />
 
         <activity android:name=".PageNine"
-            android:label="pagenine"
             android:theme="@style/AppTheme" />
 
         <activity android:name=".PageTen"
-            android:label="pageten"
             android:theme="@style/AppTheme" />
 
     </application>
