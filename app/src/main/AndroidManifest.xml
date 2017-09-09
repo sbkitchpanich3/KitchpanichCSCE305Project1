@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.sbkitchpanich.kitchpanichcsce305project1part2">
+    package="com.sbkitchpanich.kitchpanichcsce305project1">
 
     <application
         android:allowBackup="true"
@@ -9,7 +9,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name="com.sbkitchpanich.kitchpanichcsce305project1part2.PageOne">
+        <activity android:name=".PageOne">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -17,31 +17,31 @@
             </intent-filter>
         </activity>
 
-        <activity android:name="com.sbkitchpanich.kitchpanichcsce305project1part2.PageTwo"
+        <activity android:name=".PageTwo"
             android:theme="@style/AppTheme" />
 
-        <activity android:name="com.sbkitchpanich.kitchpanichcsce305project1part2.PageThree"
+        <activity android:name=".PageThree"
             android:theme="@style/AppTheme" />
 
-        <activity android:name="com.sbkitchpanich.kitchpanichcsce305project1part2.PageFour"
+        <activity android:name=".PageFour"
             android:theme="@style/AppTheme" />
 
-        <activity android:name="com.sbkitchpanich.kitchpanichcsce305project1part2.PageFive"
+        <activity android:name=".PageFive"
             android:theme="@style/AppTheme" />
 
-        <activity android:name="com.sbkitchpanich.kitchpanichcsce305project1part2.PageSix"
+        <activity android:name=".PageSix"
             android:theme="@style/AppTheme" />
 
-        <activity android:name="com.sbkitchpanich.kitchpanichcsce305project1part2.PageSeven"
+        <activity android:name=".PageSeven"
             android:theme="@style/AppTheme" />
 
-        <activity android:name="com.sbkitchpanich.kitchpanichcsce305project1part2.PageEight"
+        <activity android:name=".PageEight"
             android:theme="@style/AppTheme" />
 
-        <activity android:name="com.sbkitchpanich.kitchpanichcsce305project1part2.PageNine"
+        <activity android:name=".PageNine"
             android:theme="@style/AppTheme" />
 
-        <activity android:name="com.sbkitchpanich.kitchpanichcsce305project1part2.PageTen"
+        <activity android:name=".PageTen"
             android:theme="@style/AppTheme" />
 
     </application>

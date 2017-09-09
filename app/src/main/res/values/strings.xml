@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">CSCE305 Project 1 Part 2</string>
+    <string name="app_name">Kitchpanich CSCE305 Project1</string>
     <string name="rest_text_view">to rest</string>
     <string name="next_button">next</string>
     <string name="prev_button">prev</string>

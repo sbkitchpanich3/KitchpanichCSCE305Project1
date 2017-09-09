@@ -1,4 +1,4 @@
-package com.sbkitchpanich.kitchpanichcsce305project1part2;
+package com.sbkitchpanich.kitchpanichcsce305project1;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
