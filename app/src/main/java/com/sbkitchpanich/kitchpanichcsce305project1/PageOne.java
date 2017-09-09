@@ -26,6 +26,7 @@ public class PageOne extends AppCompatActivity {
         //final int result = 1;
 
         startActivity(getPageTwoIntent);
+        finish();
     }
 
     public void onToPageTen(View view) {
@@ -34,5 +35,6 @@ public class PageOne extends AppCompatActivity {
         //final int result = 1;
 
         startActivity(getPageTenIntent);
+        finish();
     }
 }
