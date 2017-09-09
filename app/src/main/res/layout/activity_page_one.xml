@@ -43,7 +43,6 @@
 
     </LinearLayout>
 
-
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -56,12 +55,6 @@
             android:textSize="30sp"/>
 
     </LinearLayout>
-
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="121dp"
-        android:src="@drawable/rest"
-        android:layout_weight="0.84" />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -83,7 +76,5 @@
 
 
     </LinearLayout>
-
-
 
 </LinearLayout>
