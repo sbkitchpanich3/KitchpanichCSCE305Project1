@@ -1,4 +1,4 @@
-package com.sbkitchpanich.kitchpanichcsce305project1;
+package com.sbkitchpanich.kitchpanichcsce305project1part2;
 
 import android.content.Intent;
 import android.media.AudioManager;
@@ -26,6 +26,7 @@ public class PageOne extends AppCompatActivity {
         //final int result = 1;
 
         startActivity(getPageTwoIntent);
+        finish();
     }
 
     public void onToPageTen(View view) {
@@ -34,5 +35,6 @@ public class PageOne extends AppCompatActivity {
         //final int result = 1;
 
         startActivity(getPageTenIntent);
+        finish();
     }
 }

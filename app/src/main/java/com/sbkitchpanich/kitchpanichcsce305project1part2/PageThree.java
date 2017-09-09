@@ -1,6 +1,5 @@
-package com.sbkitchpanich.kitchpanichcsce305project1;
+package com.sbkitchpanich.kitchpanichcsce305project1part2;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
@@ -10,33 +9,34 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 
-public class PageTen extends AppCompatActivity {
+public class PageThree extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.pageten);
+        setContentView(R.layout.pagethree);
         MediaPlayer mp = new MediaPlayer();
-        mp = MediaPlayer.create(this, R.raw.child);
+        mp = MediaPlayer.create(this, R.raw.vegetable);
         mp.setAudioStreamType(AudioManager.STREAM_MUSIC);
         mp.setLooping(false);
         mp.start();
     }
 
-
-    public void onToPageOne(View view) {
-        Intent getPageOneIntent = new Intent(this, PageOne.class);
+    public void onToPageFour(View view) {
+        Intent getPageFourIntent = new Intent(this, PageFour.class);
 
         //final int result = 1;
 
-        startActivity(getPageOneIntent);
+        startActivity(getPageFourIntent);
+        finish();
     }
 
-    public void onToPageNine(View view) {
-        Intent getPageNineIntent = new Intent(this, PageNine.class);
+    public void onToPageTwo(View view) {
+        Intent getPageTwoIntent = new Intent(this, PageTwo.class);
 
         //final int result = 1;
 
-        startActivity(getPageNineIntent);
+        startActivity(getPageTwoIntent);
+        finish();
     }
 }
