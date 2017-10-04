@@ -59,6 +59,19 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Low consonant + long vowel + dead ending = high tone"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:paddingTop="10dp">
 
@@ -66,7 +79,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/prev_button"
-            android:onClick="onToPageTen"/>
+            android:onClick="onToPageZero"/>
 
         <Button
             android:layout_width="wrap_content"

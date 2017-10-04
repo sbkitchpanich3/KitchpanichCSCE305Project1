@@ -29,12 +29,12 @@ public class PageOne extends AppCompatActivity {
         finish();
     }
 
-    public void onToPageTen(View view) {
-        Intent getPageTenIntent = new Intent(this, PageTen.class);
+    public void onToPageZero(View view) {
+        Intent getPageZeroIntent = new Intent(this, PageZero.class);
 
         //final int result = 1;
 
-        startActivity(getPageTenIntent);
+        startActivity(getPageZeroIntent);
         finish();
     }
 }

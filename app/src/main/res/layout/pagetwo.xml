@@ -14,7 +14,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/stay_text_view"
+            android:text="@string/chest_text_view"
             android:textSize="30sp"/>
 
     </LinearLayout>
@@ -27,8 +27,21 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/stay_thai_text_view"
+            android:text="@string/chest_thai_text_view"
             android:textSize="30sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mid consonant + short vowel + dead ending = low tone"
+            android:textSize="20dp"/>
 
     </LinearLayout>
 

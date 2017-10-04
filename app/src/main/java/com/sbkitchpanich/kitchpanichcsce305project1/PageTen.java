@@ -24,12 +24,12 @@ public class PageTen extends AppCompatActivity {
     }
 
 
-    public void onToPageOne(View view) {
-        Intent getPageOneIntent = new Intent(this, PageOne.class);
+    public void onToPageZero(View view) {
+        Intent getPageZeroIntent = new Intent(this, PageZero.class);
 
         //final int result = 1;
 
-        startActivity(getPageOneIntent);
+        startActivity(getPageZeroIntent);
         finish();
     }
 
