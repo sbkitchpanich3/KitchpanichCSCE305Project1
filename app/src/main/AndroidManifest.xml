@@ -47,6 +47,9 @@
         <activity android:name=".PageTen"
             android:theme="@style/AppTheme" />
 
+        <activity android:name=".PageEleven"
+            android:theme="@style/AppTheme" />
+
     </application>
 
 </manifest>

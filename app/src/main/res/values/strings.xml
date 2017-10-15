@@ -34,4 +34,11 @@
     <string name="paragraph3">The tones for syllables consisting of an initial consonant, a short
         vowel, and a dead ending follow a specific set of rules.  This is a statement of the rules:</string>
     <string name="small_text_view">small</string>
+    <string name="paragraph4">When you encounter a new word or syllable consisting of a consonant,
+        a long vowel, and a dead ending, if you prefer the mnemonic, you don’t have to remember
+        the tone rule explicitly.  Instead, ask yourself, is the syllable like เด็ก or เล็ก or นับ or สิบ ?
+        In other words, you’re asking yourself whether the initial consonant is mid, high, or low.
+        If you can “feel” the class of the consonant, then you apply the tone from the syllable in
+        the mnemonic device which “feels” like it.</string>
+
 </resources>

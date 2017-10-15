@@ -7,29 +7,29 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
-public class PageZero extends AppCompatActivity {
+public class PageEleven extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.pagezero);
+        setContentView(R.layout.pageeleven);
     }
 
-    public void onToPageOne(View view) {
-        Intent getPageOneIntent = new Intent(this, PageOne.class);
+    public void onToPageZero(View view) {
+        Intent getPageZeroIntent = new Intent(this, PageZero.class);
 
         //final int result = 1;
 
-        startActivity(getPageOneIntent);
+        startActivity(getPageZeroIntent);
         finish();
     }
 
-    public void onToPageEleven(View view) {
-        Intent getPageElevenIntent = new Intent(this, PageEleven.class);
+    public void onToPageTen(View view) {
+        Intent getPageTenIntent = new Intent(this, PageTen.class);
 
         //final int result = 1;
 
-        startActivity(getPageElevenIntent);
+        startActivity(getPageTenIntent);
         finish();
     }
 }
